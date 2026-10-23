@@ -52,6 +52,11 @@ python3 scripts/scrape.py --journal xlxb --output /absolute/path/to/papers --lat
 ## 6. Notes
 
 - Supported built-in journals: `xlxb` (心理学报) and `xlkxjz` (心理科学进展).
-- To add another Magtech journal, edit the `JOURNALS` dictionary in `scripts/scrape.py`.
+- Read [the route index](routes/README.md) first. For an unmatched site or a failing route,
+  follow [site discovery](site-discovery.md), keep adapting until acquisition succeeds, then
+  verify repeatability and record the working experience. Only add another Magtech journal
+  to `JOURNALS` after checking that its real structure matches the existing parser.
 - The scraper creates `metadata.jsonl` and `.checkpoint.json` under the selected output folder for resume support.
+- There is no `--resume` flag. Checkpoints can contain completed issues with failed files;
+  inspect actual outputs before claiming completeness. See [the built-in route](routes/magtech-psych.md).
 - Be polite to journal servers: keep worker counts modest and avoid unnecessary repeated runs.

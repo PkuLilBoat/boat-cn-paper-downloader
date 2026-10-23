@@ -5,3 +5,10 @@ __pycache__/
 metadata.jsonl
 papers/
 downloads/
+.venv/
+_route-discovery/
+browser_profile/
+*.private.*
+.env
+.env.*
+!*.example.*
