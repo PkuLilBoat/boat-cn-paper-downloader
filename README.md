@@ -1,6 +1,12 @@
-English | [简体中文](README.zh-CN.md)
+<img src="assets/community-banner.png" alt="Learning and creating in the AI era" width="680">
+
+<table><tr><td width="180"><img src="assets/wechat.jpg" alt="WeChat community QR code" width="156"></td><td>Scan the QR code to join our lifelong learning community and discussion groups.<br>Let's exchange ideas about AI, knowledge management, and productivity tools.</td></tr></table>
+
+---
 
 # BOAT CN Paper Downloader
+
+English | [简体中文](README.zh-CN.md)
 
 A Codex / Claude Skill for downloading Chinese journal papers and publicly available peer-review attachments. The Python scraper has two built-in journal mappings: 心理学报 (`xlxb`) and 心理科学进展 (`xlkxjz`) on `journal.psych.ac.cn`.
 
@@ -56,8 +62,4 @@ No license is currently specified for this repository. Dependency licenses remai
 
 ## Community and feedback
 
-Scan the QR code to add me on WeChat and join our lifelong learners and discussion groups. We share ideas about learning, Obsidian, knowledge management, and productivity tools.
-
-![WeChat community QR code](assets/wechat.jpg)
-
-You can also report problems or suggest improvements through this repository's [GitHub Issues](https://github.com/PkuLilBoat/boat-cn-paper-downloader/issues).
+You can also report problems or suggest improvements through this repository's [GitHub Issues](https://github.com/PkuLilBoat/boat-cn-paper-downloader/issues). Joining the community is optional and is not required to use the tool.

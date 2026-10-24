@@ -1,6 +1,12 @@
-[English](README.md) | 简体中文
+<img src="assets/community-banner.png" alt="AI时代的学习和创作" width="680">
+
+<table><tr><td width="180"><img src="assets/wechat.jpg" alt="微信交流二维码" width="156"></td><td>扫描二维码，加入终身学习者社群、交流群。<br>一起交流 AI、知识管理与效率工具。</td></tr></table>
+
+---
 
 # BOAT CN Paper Downloader
+
+[English](README.md) | 简体中文
 
 用于下载中文期刊论文及公开审稿附件的 Codex / Claude Skill。Python 爬虫现有两条内置期刊映射：`journal.psych.ac.cn` 上的心理学报（`xlxb`）与心理科学进展（`xlkxjz`）。
 
@@ -56,8 +62,4 @@ python3 scripts/scrape.py --help
 
 ## 交流与反馈
 
-扫描二维码添加我的微信，可加入终身学习者群、交流群，一起交流学习、Obsidian、知识管理与效率工具。
-
-![微信交流二维码](assets/wechat.jpg)
-
-问题与建议也欢迎通过本仓库的 [GitHub Issues](https://github.com/PkuLilBoat/boat-cn-paper-downloader/issues) 提交。
+问题与建议也欢迎通过本仓库的 [GitHub Issues](https://github.com/PkuLilBoat/boat-cn-paper-downloader/issues) 提交。扫码交流为可选入口，不影响工具使用。
